@@ -16,6 +16,10 @@
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- PIZZA CSS -->
+    <link rel="stylesheet" href="css/pizza.css">
+    <!-- FIM CSS PIZZA -->
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -105,9 +109,9 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Carrinho</a></li>
+                        <li id="myBtn"><a href="#">PIZZA</a></li>
+                        <li><a href="#">BURGUER</a></li>
+                        <li><a href="#">DOCES</a></li>
                     </ul>
                 </div>  
             </div>
@@ -116,47 +120,18 @@
     
     <div class="slider-area">
         	<!-- Slider -->
-			<div class="block-slider block-slider4">
-				<ul class="" id="bxslider-home4">
-					<li>
-						<img src="img/h4-slide.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								iPhone <span class="primary">6 <strong>Plus</strong></span>
-							</h2>
-							<h4 class="caption subtitle">Dual SIM</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-						</div>
-					</li>
-					<li><img src="img/h4-slide2.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								by one, get one <span class="primary">50% <strong>off</strong></span>
-							</h2>
-							<h4 class="caption subtitle">school supplies & backpacks.*</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-						</div>
-					</li>
-					<li><img src="img/h4-slide3.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								Apple <span class="primary">Store <strong>Ipod</strong></span>
-							</h2>
-							<h4 class="caption subtitle">Select Item</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-						</div>
-					</li>
-					<li><img src="img/h4-slide4.png" alt="Slide">
-						<div class="caption-group">
-						  <h2 class="caption title">
-								Apple <span class="primary">Store <strong>Ipod</strong></span>
-							</h2>
-							<h4 class="caption subtitle">& Phone</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Comprar</a>
-						</div>
-					</li>
-				</ul>
+        	
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			  	Escolha número de pedaços da Pizza
+			    <span class="close">&times;</span>
+			    <input type="number" class="btn btn-append" name="">
+			    <p><button class="btn btn-success">OK</button></p>
 			</div>
+			<!-- PIZZA JQUERY COM MODAL -->
 			<!-- ./Slider -->
     </div> <!-- End slider area -->
     
@@ -404,6 +379,10 @@
     <!-- jQuery sticky menu -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
+
+    <!-- PIZZA jQuery -->
+    <script src="js/pizza.js"></script>	
+    <!-- FIM -->
     
     <!-- jQuery easing -->
     <script src="js/jquery.easing.1.3.min.js"></script>
