@@ -121,14 +121,32 @@
     <div class="slider-area">
         	<!-- Slider -->
         	
+            <div class="tabua-shadow" hidden>
+                <div class="pizza">
+                        <div class="pedaco p1"></div>
+                        <div class="pedaco p2"></div>
+                </div>
+            </div>
+            
+
 			<!-- The Modal -->
 			<div id="myModal" class="modal">
 
 			  <!-- Modal content -->
 			  <div class="modal-content">
-			  	Escolha número de pedaços da Pizza
+			  	
 			    <span class="close">&times;</span>
-			    <input type="number" class="btn btn-append" name="">
+			    <form>
+                <div class="form-group escolha-padrao">
+                    <label for="exampleFormControlSelect2">Escolha número de pedaços da Pizza</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                      <option>2</option>
+                      <option>4</option>
+                      <option>6</option>
+                      <option>8</option>
+                    </select>
+                  </div>
+                </form>
 			    <p><button class="btn btn-success">OK</button></p>
 			</div>
 			<!-- PIZZA JQUERY COM MODAL -->
