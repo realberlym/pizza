@@ -23,3 +23,13 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+$( "#escolha" ).click(function() {
+  	var escolha = $("#exampleFormControlSelect2").val();
+
+  	if(escolha == 2){
+  		$("#2").removeAttr("hidden");
+  		modal.style.display = "none";
+  	}
+
+});
