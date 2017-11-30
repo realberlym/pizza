@@ -24,18 +24,20 @@ window.onclick = function(event) {
     }
 }
 
+$("#2").fadeOut();
+
 $( "#escolha" ).click(function() {
   	var escolha = $("#exampleFormControlSelect2").val();
 
   	if(escolha == 2){
 
-  		$("#2").removeAttr("hidden");
+  		$("#2").fadeIn(1000);
   		modal.style.display = "none";
 
   	}
 
     if(escolha == 4){
-      $("#2").attr("hidden", true);
+      $("#2").fadeOut();
       modal.style.display = "none";
     }
 
