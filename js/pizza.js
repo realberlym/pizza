@@ -29,14 +29,21 @@ $("#2").fadeOut();
 $( "#escolha" ).click(function() {
   	var escolha = $("#exampleFormControlSelect2").val();
 
+    if(escolha == 1){
+      $("#2").fadeOut();
+      modal.style.display = "none";
+      $("#1").fadeIn();
+    }
+
   	if(escolha == 2){
-
-  		$("#2").fadeIn(1000);
-  		modal.style.display = "none";
-
+      $("#1").fadeOut();
+      modal.style.display = "none";
+      $("#2").fadeIn();
+  		
   	}
 
     if(escolha == 4){
+      $("#1").fadeOut();
       $("#2").fadeOut();
       modal.style.display = "none";
     }

@@ -120,13 +120,38 @@
     
     <div class="slider-area">
         	<!-- Slider -->
+            <div class="escolhas" id="1" hidden="true">
+                <form>
+                  <div class="form-group sabores">
+                    <label for="exampleFormControlSelect2">Escolha o Sabor da Pizza</label>
+                    <select multiple class="form-control">
+                      <option value="1">Mussarela</option>
+                      <option value="2">Calabresa</option>
+                      <option value="4">Frango c/ Catupiry</option>
+                      <option value="6">Quatro Queijos</option>
+                      <option value="8">Portuguesa</option>
+                      <option value="8">Peperone</option>
+                      <option value="8">Napolitana</option>
+                    </select>
+                  </div>
+                </form>
+
+                <div class="tabua-shadow">
+                    <div class="pizza">
+                            <div class="pizza-inteira"></div>
+                    </div>
+                </div>
+            </div>
         	
+
             <div id="2" class="tabua-shadow" hidden="true">
                 <div class="pizza">
                         <div class="pedaco p1"></div>
                         <div class="pedaco p2"></div>
                 </div>
             </div>
+
+
             
 
 			<!-- The Modal -->
@@ -140,6 +165,7 @@
                 <div class="form-group escolha-padrao">
                     <label for="exampleFormControlSelect2">Escolha número de pedaços da Pizza</label>
                     <select multiple class="form-control" id="exampleFormControlSelect2">
+                      <option value="1">1 (Inteira)</option>
                       <option value="2">2</option>
                       <option value="4">4</option>
                       <option value="6">6</option>
