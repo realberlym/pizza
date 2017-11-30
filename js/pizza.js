@@ -31,5 +31,6 @@ $( "#escolha" ).click(function() {
   		$("#2").removeAttr("hidden");
   		modal.style.display = "none";
   	}
+    modal.style.display = "none";
 
 });
