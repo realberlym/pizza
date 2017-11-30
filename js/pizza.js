@@ -28,9 +28,16 @@ $( "#escolha" ).click(function() {
   	var escolha = $("#exampleFormControlSelect2").val();
 
   	if(escolha == 2){
+
   		$("#2").removeAttr("hidden");
   		modal.style.display = "none";
+
   	}
-    modal.style.display = "none";
+
+    if(escolha == 4){
+      $("#2").attr("hidden", true);
+      modal.style.display = "none";
+    }
+
 
 });
