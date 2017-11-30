@@ -1090,6 +1090,10 @@ div.cart-collaterals ul.products li.product a:hover {text-decoration: none}
 div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background-color: #222}
 
 
+.tamanho-sabores{
+  width: 134%;
+}
+
 .cart-collaterals .shipping_calculator {
   float: right;
   width: 40%;
