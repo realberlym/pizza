@@ -24,7 +24,6 @@ window.onclick = function(event) {
     }
 }
 
-$("#2").fadeOut();
 
 $( "#escolha" ).click(function() {
   	var escolha = $("#exampleFormControlSelect2").val();
@@ -42,11 +41,6 @@ $( "#escolha" ).click(function() {
   		
   	}
 
-    if(escolha == 4){
-      $("#1").fadeOut();
-      $("#2").fadeOut();
-      modal.style.display = "none";
-    }
 
 
 });
