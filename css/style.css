@@ -1092,6 +1092,8 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background
 
 .tamanho-sabores{
   width: 134%;
+  margin-left: -18%;
+  margin-top: 20%;
 }
 
 .cart-collaterals .shipping_calculator {

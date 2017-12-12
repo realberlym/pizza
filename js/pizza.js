@@ -41,6 +41,10 @@ $( "#escolha" ).click(function() {
   		
   	}
 
+});
 
+$("#pizza-inteira").click(function(){
+    
+    alert('Abriu');
 
 });
